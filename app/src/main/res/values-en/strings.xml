@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moon Dreams</string>
+    <string name="cancelar">Cancel</string>
+    <string name="copia_de_seguran_a">Backup</string>
+    <string name="copiadeseguranca">Backup</string>
+    <string name="escolher_a_data">Choose date</string>
+    <string name="foifeitaumacopiadeseguranca">Backup completed</string>
+    <string name="gravar">Save</string>
+    <string name="novo">New</string>
+    <string name="oficheirovaiserguardadoondeescolher">The file will be saved in choosed directory</string>
+    <string name="ok">OK</string>
+    <string name="pretendesfazercopiadeseguranca">Do you want to make a backup?</string>
+    <string name="qual_foi_o_sonho">What was the dream?</string>
+    <string name="sonhos">Dreams</string>
+    <string name="title_home">Home</string>
+    <string name="titulo_do_sonho">Dream title</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
