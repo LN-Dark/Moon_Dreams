@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_sonhos"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="@string/sonhos" />
+
+    <item
+        android:id="@+id/navigation_sonhosBackup"
+        android:icon="@drawable/ic_backup_black_24dp"
+        android:title="@string/copia_de_seguran_a" />
+</menu>

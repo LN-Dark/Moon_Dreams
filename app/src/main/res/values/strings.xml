@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Moon Dreams</string>
+    <string name="title_home">Home</string>
+    <string name="sonhos">Sonhos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="novo">Novo</string>
+    <string name="titulo_do_sonho">Titulo do Sonho</string>
+    <string name="escolher_a_data">ESCOLHER A DATA</string>
+    <string name="qual_foi_o_sonho">Qual foi o sonho?</string>
+    <string name="gravar">Gravar</string>
+    <string name="copia_de_seguran_a">Copia de Segurança</string>
+    <string name="oficheirovaiserguardadoondeescolher">O ficheiro vai ser guardado no local que escolher.</string>
+    <string name="copiadeseguranca">Copia de segurança</string>
+    <string name="pretendesfazercopiadeseguranca">Pretendes fazer uma copia de segurança de todos os sonhos?</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="foifeitaumacopiadeseguranca">Foi feita uma copia de segurança dos sonhos!</string>
+</resources>
