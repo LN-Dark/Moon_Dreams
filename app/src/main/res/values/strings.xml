@@ -34,6 +34,6 @@
     <string name="escolheadatadosonho">Choose date of the dream</string>
     <string name="escolhedata">Choose date</string>
     <string name="copiadesegurancacompleta">Backup completed</string>
-    <string name="thanksforyourdonation">\\n\\n Thanks for your donation :D</string>
+    <string name="thanksforyourdonation">\n\n Thanks for your donation :D</string>
     <string name="donate">Donate</string>
 </resources>

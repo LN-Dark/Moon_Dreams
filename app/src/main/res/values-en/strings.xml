@@ -31,9 +31,9 @@
     <string name="restaurocompleto">Dreams restore Completed</string>
     <string name="sonhogravadocomsucesso">Dreams sucessfully saved</string>
     <string name="copiadesegurancacompleta">Backup completed</string>
-    <string name="thanksforyourdonation">\\n\\n Thanks for your donation :D</string>
+    <string name="thanksforyourdonation">\n\n Thanks for your donation :D</string>
     <string name="donate">Donate</string>
-    <string name="restaurar_da_nuvem" translatable="false">Cloud Restore</string>
-    <string name="backup_para_a_nuvem" translatable="false">Backup to cloud</string>
-    <string name="restaurar_de_ficheiro" translatable="false">File Restore</string>
+    <string name="restaurar_da_nuvem" >Cloud Restore</string>
+    <string name="backup_para_a_nuvem" >Backup to cloud</string>
+    <string name="restaurar_de_ficheiro" >File Restore</string>
 </resources>

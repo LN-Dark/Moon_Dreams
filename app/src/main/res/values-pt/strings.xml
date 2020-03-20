@@ -34,6 +34,6 @@
     <string name="restaurar_de_ficheiro" translatable="false">Restaurar de ficheiro</string>
     <string name="restaurar_da_nuvem" translatable="false">Restaurar da nuvem</string>
     <string name="backup_para_a_nuvem" translatable="false">Backup para a nuvem</string>
-    <string name="thanksforyourdonation">\\n\\n Obrigado pela doaçao</string>
+    <string name="thanksforyourdonation">\n\n Obrigado pela doaçao</string>
     <string name="donate">Doar</string>
 </resources>
