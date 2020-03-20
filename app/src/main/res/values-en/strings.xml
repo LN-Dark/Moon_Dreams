@@ -16,4 +16,24 @@
     <string name="title_home">Home</string>
     <string name="titulo_do_sonho">Dream title</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="backup">Backup</string>
+    <string name="backup_para_ficheiro">Backup to file</string>
+    <string name="backup_para_ficheiro_que_da_para_ler">Backup to file that you can read</string>
+    <string name="escolheadatadosonho">Choose date of the dream</string>
+    <string name="escolhedata">Choose date</string>
+    <string name="escolheradata">Choose date</string>
+    <string name="escreveosonho">Write the dream</string>
+    <string name="escreveotitulodosonho">Write the tittle of the dream</string>
+    <string name="ficheiroinvalido">Invalid File</string>
+    <string name="oficheirovaidarparalernormalmente">The file will be readable by you</string>
+    <string name="oficheirovaiserguardadonumaformaespecifica">The file will be saved in a special format to later it can be restored</string>
+    <string name="restaurar">Restore</string>
+    <string name="restaurocompleto">Dreams restore Completed</string>
+    <string name="sonhogravadocomsucesso">Dreams sucessfully saved</string>
+    <string name="copiadesegurancacompleta">Backup completed</string>
+    <string name="thanksforyourdonation">\\n\\n Thanks for your donation :D</string>
+    <string name="donate">Donate</string>
+    <string name="restaurar_da_nuvem" translatable="false">Cloud Restore</string>
+    <string name="backup_para_a_nuvem" translatable="false">Backup to cloud</string>
+    <string name="restaurar_de_ficheiro" translatable="false">File Restore</string>
 </resources>

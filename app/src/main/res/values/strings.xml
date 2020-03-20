@@ -1,20 +1,39 @@
 <resources>
     <string name="app_name">Moon Dreams</string>
     <string name="title_home">Home</string>
-    <string name="sonhos">Sonhos</string>
+    <string name="sonhos">Dreams</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="novo">Novo</string>
-    <string name="titulo_do_sonho">Titulo do Sonho</string>
-    <string name="escolher_a_data">ESCOLHER A DATA</string>
-    <string name="qual_foi_o_sonho">Qual foi o sonho?</string>
-    <string name="gravar">Gravar</string>
-    <string name="copia_de_seguran_a">Copia de Segurança</string>
-    <string name="oficheirovaiserguardadoondeescolher">O ficheiro vai ser guardado no local que escolher.</string>
-    <string name="copiadeseguranca">Copia de segurança</string>
-    <string name="pretendesfazercopiadeseguranca">Pretendes fazer uma copia de segurança de todos os sonhos?</string>
+    <string name="novo">New</string>
+    <string name="titulo_do_sonho">Dream title</string>
+    <string name="escolher_a_data">Choose date</string>
+    <string name="qual_foi_o_sonho">What was the dream?</string>
+    <string name="gravar">Save</string>
+    <string name="copia_de_seguran_a">Backup</string>
+    <string name="oficheirovaiserguardadoondeescolher">The file will be saved in choosed directory</string>
+    <string name="copiadeseguranca">Backup</string>
+    <string name="pretendesfazercopiadeseguranca">Do you want to make a backup?</string>
     <string name="ok">OK</string>
-    <string name="cancelar">Cancelar</string>
-    <string name="foifeitaumacopiadeseguranca">Foi feita uma copia de segurança dos sonhos!</string>
+    <string name="cancelar">Cancel</string>
+    <string name="foifeitaumacopiadeseguranca">Backup completed</string>
+    <string name="backup">Backup</string>
+    <string name="restaurar">Restore</string>
+    <string name="restaurar_de_ficheiro">File Restore</string>
+    <string name="backup_para_ficheiro">Backup to file</string>
+    <string name="restaurar_da_nuvem">Cloud Restore</string>
+    <string name="backup_para_a_nuvem">Backup to cloud</string>
+    <string name="ficheiroinvalido">Invalid File</string>
+    <string name="restaurocompleto">Dreams restore Completed</string>
+    <string name="backup_para_ficheiro_que_da_para_ler">Backup to file that you can read</string>
+    <string name="oficheirovaidarparalernormalmente">The file will be readable by you</string>
+    <string name="oficheirovaiserguardadonumaformaespecifica">The file will be saved in a special format to later it can be restored</string>
+    <string name="escolheradata">Choose date</string>
+    <string name="sonhogravadocomsucesso">Dreams sucessfully saved</string>
+    <string name="escreveosonho">Write the dream</string>
+    <string name="escreveotitulodosonho">Write the tittle of the dream</string>
+    <string name="escolheadatadosonho">Choose date of the dream</string>
+    <string name="escolhedata">Choose date</string>
+    <string name="copiadesegurancacompleta">Backup completed</string>
+    <string name="thanksforyourdonation">\\n\\n Thanks for your donation :D</string>
+    <string name="donate">Donate</string>
 </resources>

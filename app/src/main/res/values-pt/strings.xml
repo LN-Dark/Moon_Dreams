@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moon Dreams</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="copia_de_seguran_a">Copia de Segurança</string>
+    <string name="copiadeseguranca">Copia de segurança</string>
+    <string name="escolher_a_data">ESCOLHER A DATA</string>
+    <string name="foifeitaumacopiadeseguranca">Foi feita uma copia de segurança dos sonhos!</string>
+    <string name="gravar">Gravar</string>
+    <string name="novo">Novo</string>
+    <string name="oficheirovaiserguardadoondeescolher">O ficheiro vai ser guardado no local que escolher.</string>
+    <string name="ok">OK</string>
+    <string name="pretendesfazercopiadeseguranca">Pretendes fazer uma copia de segurança de todos os sonhos?</string>
+    <string name="qual_foi_o_sonho">Qual foi o sonho?</string>
+    <string name="sonhos">Sonhos</string>
+    <string name="title_home">Home</string>
+    <string name="titulo_do_sonho">Titulo do Sonho</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="backup">Copia de segurança</string>
+    <string name="backup_para_ficheiro">Copia de segurança para ficheiro</string>
+    <string name="backup_para_ficheiro_que_da_para_ler">Copia de segurança para ficheiro que da para ler</string>
+    <string name="escolheadatadosonho">Escolhe a data do sonho!</string>
+    <string name="escolhedata">Escolhe a data</string>
+    <string name="escolheradata">ESCOLHER A DATA</string>
+    <string name="escreveosonho">Escreve o sonho</string>
+    <string name="escreveotitulodosonho">Escreve o titulo do sonho</string>
+    <string name="ficheiroinvalido">Ficheiro invalido</string>
+    <string name="oficheirovaidarparalernormalmente">O ficheiro vai dar para ler normalmente</string>
+    <string name="oficheirovaiserguardadonumaformaespecifica">O ficheiro vai ser gravado numa forma especifica para depois poder ser feito o restauro!</string>
+    <string name="restaurar">Restaurar</string>
+    <string name="restaurocompleto">Restauro dos sonhos completo!</string>
+    <string name="sonhogravadocomsucesso">Sonho gravado com sucesso!</string>
+    <string name="copiadesegurancacompleta">Copia de segurança completa!</string>
+    <string name="restaurar_de_ficheiro" translatable="false">Restaurar de ficheiro</string>
+    <string name="restaurar_da_nuvem" translatable="false">Restaurar da nuvem</string>
+    <string name="backup_para_a_nuvem" translatable="false">Backup para a nuvem</string>
+    <string name="thanksforyourdonation">\\n\\n Obrigado pela doaçao</string>
+    <string name="donate">Doar</string>
+</resources>

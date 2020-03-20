@@ -48,56 +48,45 @@ public class SonhosNovoFragment extends Fragment implements DatePickerDialog.OnD
                              Bundle savedInstanceState) {
         root = inflater.inflate(R.layout.fragment_sonhos_novo, container, false);
         Calendar calendar = Calendar.getInstance();
-
         Year = calendar.get(Calendar.YEAR) ;
         Month = calendar.get(Calendar.MONTH);
         Day = calendar.get(Calendar.DAY_OF_MONTH);
-
         dialog_bt_date = root.findViewById(R.id.dialog_bt_date);
         btn_gravar_Sonho = root.findViewById(R.id.btn_gravar_sonho);
         dialog_bt_date.setOnClickListener(view -> {
-
             datePickerDialog = DatePickerDialog.newInstance(SonhosNovoFragment.this, Year, Month, Day);
-
             datePickerDialog.setThemeDark(true );
-
             datePickerDialog.showYearPickerFirst(false);
-
             datePickerDialog.setAccentColor(Color.parseColor("#FF5722"));
-
-            datePickerDialog.setTitle("Escolhe a data");
-
+            datePickerDialog.setTitle(getString(R.string.escolhedata));
             datePickerDialog.show(getFragmentManager(), "DatePickerDialog");
-
         });
         tituloSonho = root.findViewById(R.id.titulo_sonho_novo_novo);
         oSonho = root.findViewById(R.id.texto_sonho_novo_novo);
         btn_gravar_Sonho.setOnClickListener(v -> {
-            if(!dialog_bt_date.getText().equals("ESCOLHER A DATA")){
+            if(!dialog_bt_date.getText().equals(getString(R.string.escolheradata))){
                 if(!tituloSonho.getText().toString().equals("")){
                     if(!oSonho.getText().toString().equals("")){
                         SharedPreferences prefs = root.getContext().getSharedPreferences("MoonDreams", MODE_PRIVATE);
                         String SonhosFull = prefs.getString("MoonDreams", "");
                         SharedPreferences.Editor editor = root.getContext().getSharedPreferences("MoonDreams", MODE_PRIVATE).edit();
-                        editor.putString("MoonDreams", SonhosFull + "§" + dialog_bt_date.getText().toString() + "»" + tituloSonho.getText().toString() + "»" + oSonho.getText().toString());
+                        editor.putString("MoonDreams", SonhosFull + dialog_bt_date.getText().toString() + "»" + tituloSonho.getText().toString() + "»" + oSonho.getText().toString() + "§");
                         editor.apply();
-                        Toast.makeText(root.getContext(), "Sonho gravado com sucesso!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(root.getContext(), getString(R.string.sonhogravadocomsucesso), Toast.LENGTH_LONG).show();
                         tituloSonho.setText("");
                         oSonho.setText("");
-                        dialog_bt_date.setText("ESCOLHER A DATA");
+                        dialog_bt_date.setText(getString(R.string.escolheradata));
                     }else {
-                        Toast.makeText(SonhosNovoFragment.this.getContext(), "Escreve o sonho", Toast.LENGTH_LONG).show();
+                        Toast.makeText(SonhosNovoFragment.this.getContext(), getString(R.string.escreveosonho), Toast.LENGTH_LONG).show();
                     }
                 }else {
-                    Toast.makeText(SonhosNovoFragment.this.getContext(), "Escreve o titulo do sonho", Toast.LENGTH_LONG).show();
+                    Toast.makeText(SonhosNovoFragment.this.getContext(), getString(R.string.escreveotitulodosonho), Toast.LENGTH_LONG).show();
                 }
             }else {
-                Toast.makeText(SonhosNovoFragment.this.getContext(), "Escolhe a data do sonho!", Toast.LENGTH_LONG).show();
+                Toast.makeText(SonhosNovoFragment.this.getContext(), getString(R.string.escolheadatadosonho), Toast.LENGTH_LONG).show();
             }
         });
-
         return root;
-
     }
 
     @Override
