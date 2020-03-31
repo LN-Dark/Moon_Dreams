@@ -18,12 +18,14 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-            contextOfApplication = getApplicationContext();
-            setContentView(R.layout.activity_main);
-            loadFragment(new SonhosFragment());
-            BottomNavigationView navigation = findViewById(R.id.nav_view);
-            navigation.setOnNavigationItemSelectedListener(this);
+        contextOfApplication = getApplicationContext();
+        setContentView(R.layout.activity_main);
+        loadFragment(new SonhosFragment());
+        getSupportActionBar().setTitle(getString(R.string.sonhos));
+        BottomNavigationView navigation = findViewById(R.id.nav_view);
+        navigation.setOnNavigationItemSelectedListener(this);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(getDrawable(R.drawable.ic_dreamcatcher));
     }
 
     public static Context contextOfApplication;
@@ -44,9 +46,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         switch (item.getItemId()) {
             case R.id.navigation_sonhos:
                 fragment = new SonhosFragment();
+                getSupportActionBar().setTitle(getString(R.string.sonhos));
                 break;
             case R.id.navigation_sonhosBackup:
                 fragment = new BackupFragment();
+                getSupportActionBar().setTitle(getString(R.string.copia_de_seguran_a));
                 break;
         }
         return loadFragment(fragment);

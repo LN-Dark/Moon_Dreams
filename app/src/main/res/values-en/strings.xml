@@ -2,12 +2,12 @@
 <resources>
     <string name="app_name">Moon Dreams</string>
     <string name="cancelar">Cancel</string>
-    <string name="copia_de_seguran_a">Backup</string>
+    <string name="copia_de_seguran_a">Settings</string>
     <string name="copiadeseguranca">Backup</string>
     <string name="escolher_a_data">Choose date</string>
     <string name="foifeitaumacopiadeseguranca">Backup completed</string>
     <string name="gravar">Save</string>
-    <string name="novo">New</string>
+    <string name="novo">New Dream</string>
     <string name="oficheirovaiserguardadoondeescolher">The file will be saved in choosed directory</string>
     <string name="ok">OK</string>
     <string name="pretendesfazercopiadeseguranca">Do you want to make a backup?</string>
@@ -36,4 +36,11 @@
     <string name="restaurar_da_nuvem" >Cloud Restore</string>
     <string name="backup_para_a_nuvem" >Backup to cloud</string>
     <string name="restaurar_de_ficheiro" >File Restore</string>
+    <string name="escolheadata">Choose session date</string>
+    <string name="escolheahora">Choose the time</string>
+    <string name="relogioprogramado">Clock scheduled</string>
+    <string name="program_clock_to_meditate">Program Notification to write the dreams</string>
+    <string name="naoteesquecasdeescreverossonhos">Dont forget to write the dreams</string>
+    <string name="notificacaodesonhos">Dreams notification</string>
+    <string name="notificacaoparanaoesquecerdeescreverossonhos">Notification to not forget to write the dreams</string>
 </resources>

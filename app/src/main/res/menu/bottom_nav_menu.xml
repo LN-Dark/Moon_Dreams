@@ -4,11 +4,11 @@
 
     <item
         android:id="@+id/navigation_sonhos"
-        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:icon="@drawable/ic_dream_catcher"
         android:title="@string/sonhos" />
 
     <item
         android:id="@+id/navigation_sonhosBackup"
-        android:icon="@drawable/ic_backup_black_24dp"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/copia_de_seguran_a" />
 </menu>

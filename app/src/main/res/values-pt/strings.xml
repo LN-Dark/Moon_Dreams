@@ -2,12 +2,12 @@
 <resources>
     <string name="app_name">Moon Dreams</string>
     <string name="cancelar">Cancelar</string>
-    <string name="copia_de_seguran_a">Copia de Segurança</string>
+    <string name="copia_de_seguran_a">Definiçoes</string>
     <string name="copiadeseguranca">Copia de segurança</string>
     <string name="escolher_a_data">ESCOLHER A DATA</string>
     <string name="foifeitaumacopiadeseguranca">Foi feita uma copia de segurança dos sonhos!</string>
     <string name="gravar">Gravar</string>
-    <string name="novo">Novo</string>
+    <string name="novo">Novo Sonho</string>
     <string name="oficheirovaiserguardadoondeescolher">O ficheiro vai ser guardado no local que escolher.</string>
     <string name="ok">OK</string>
     <string name="pretendesfazercopiadeseguranca">Pretendes fazer uma copia de segurança de todos os sonhos?</string>
@@ -31,9 +31,16 @@
     <string name="restaurocompleto">Restauro dos sonhos completo!</string>
     <string name="sonhogravadocomsucesso">Sonho gravado com sucesso!</string>
     <string name="copiadesegurancacompleta">Copia de segurança completa!</string>
-    <string name="restaurar_de_ficheiro" translatable="false">Restaurar de ficheiro</string>
-    <string name="restaurar_da_nuvem" translatable="false">Restaurar da nuvem</string>
-    <string name="backup_para_a_nuvem" translatable="false">Backup para a nuvem</string>
+    <string name="restaurar_de_ficheiro" >Restaurar de ficheiro</string>
+    <string name="restaurar_da_nuvem">Restaurar da nuvem</string>
+    <string name="backup_para_a_nuvem">Backup para a nuvem</string>
     <string name="thanksforyourdonation">\n\n Obrigado pela doaçao</string>
     <string name="donate">Doar</string>
+    <string name="naoteesquecasdeescreverossonhos">Nao te esquecas de escrever os teus sonhos!</string>
+    <string name="notificacaodesonhos">Notificaçao de sonhos</string>
+    <string name="notificacaoparanaoesquecerdeescreverossonhos">Notificaçao para nao esquecer de escrever os sonhos</string>
+    <string name="escolheadata">Escolhe a data da sessao</string>
+    <string name="escolheahora">Escolhe a hora</string>
+    <string name="relogioprogramado">Relogio programado</string>
+    <string name="program_clock_to_meditate">Programar notificaçao para escrever os sonhos</string>
 </resources>

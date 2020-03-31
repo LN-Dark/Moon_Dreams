@@ -2,14 +2,13 @@
     <string name="app_name">Moon Dreams</string>
     <string name="title_home">Home</string>
     <string name="sonhos">Dreams</string>
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="novo">New</string>
+    <string name="novo">New Dream</string>
     <string name="titulo_do_sonho">Dream title</string>
     <string name="escolher_a_data">Choose date</string>
     <string name="qual_foi_o_sonho">What was the dream?</string>
     <string name="gravar">Save</string>
-    <string name="copia_de_seguran_a">Backup</string>
+    <string name="copia_de_seguran_a">Settings</string>
     <string name="oficheirovaiserguardadoondeescolher">The file will be saved in choosed directory</string>
     <string name="copiadeseguranca">Backup</string>
     <string name="pretendesfazercopiadeseguranca">Do you want to make a backup?</string>
@@ -36,4 +35,11 @@
     <string name="copiadesegurancacompleta">Backup completed</string>
     <string name="thanksforyourdonation">\n\n Thanks for your donation :D</string>
     <string name="donate">Donate</string>
+    <string name="naoteesquecasdeescreverossonhos">Dont forget to write the dreams</string>
+    <string name="notificacaodesonhos">Dreams notification</string>
+    <string name="notificacaoparanaoesquecerdeescreverossonhos">Notification to not forget to write the dreams</string>
+    <string name="escolheadata">Choose session date</string>
+    <string name="escolheahora">Choose the time</string>
+    <string name="relogioprogramado">Clock scheduled</string>
+    <string name="program_clock_to_meditate">Program Notification to write the dreams</string>
 </resources>

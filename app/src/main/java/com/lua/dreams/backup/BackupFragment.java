@@ -28,6 +28,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 import com.lua.dreams.MainActivity;
 import com.lua.dreams.R;
+import com.lua.dreams.ferramentas.TimePickerFragment;
 import com.lua.dreams.ui.sonhos.SonhosNovoFragment;
 import com.lua.dreams.ui.sonhos.SonhosObject;
 
@@ -60,6 +61,11 @@ public class BackupFragment extends Fragment {
         ImageView btn_telegram = root.findViewById(R.id.btn_telegram);
         ImageView btn_paypal = root.findViewById(R.id.btn_paypal);
         ImageView btn_github = root.findViewById(R.id.btn_github);
+        MaterialButton btnProgramarRelogio = root.findViewById(R.id.btnprogramclock);
+        btnProgramarRelogio.setOnClickListener(v -> {
+            TimePickerFragment dialog = new TimePickerFragment();
+            dialog.show(getActivity().getSupportFragmentManager(), "");
+        });
         btn_github.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/LN-Dark"));
             startActivity(browserIntent);
